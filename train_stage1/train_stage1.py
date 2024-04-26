@@ -103,6 +103,7 @@ if __name__ == '__main__':
 
 
     # Knowledge distillation using MatchFormer
+    # 使用 MatchFormer 进行知识蒸馏
     use_registration_teacher = True
     if use_registration_teacher == True:
         teacher = Matchformer(config=default_cfg)

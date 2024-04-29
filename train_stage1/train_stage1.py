@@ -52,11 +52,11 @@ def train_one_epoch(model_stage1, teacher, optimizer, data_loader_reg, data_load
 
 if __name__ == '__main__':
     # Configuring dataset paths
-    path2COCO = ""
-    path2COCO_CPSTN = ""
-    path2IVS = ""
-    path2IVS_CPSTN = ""
-    path2IVS_Label = ""
+    path2COCO = "E:\\daily_Log\\0425\\COCO"
+    path2COCO_CPSTN = "E:\\daily_Log\\0425\\COCO_CPSTN"
+    path2IVS = "E:\\daily_Log\\0425\\IVS"
+    path2IVS_CPSTN = "E:\\daily_Log\\0425\\IVS_CPSTN"
+    path2IVS_Label = "E:\\daily_Log\\0425\\IVS_Label"
     MatchFormer_weight_path = ""
 
     # Configure the size of the training image
